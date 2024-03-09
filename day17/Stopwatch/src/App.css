@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  padding: 2em;
+  gap: 2em;
+}
+
+.btn{
+  padding: 1em 2em;
+}
+
+.start{
+  background-color: green !important;
+}
+.stop{
+  background-color: red !important;
+}
+.reset{
+  background-color: aqua !important;
+  color: black;
+}
